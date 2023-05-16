@@ -1,0 +1,1 @@
+import{m as o,n as a,q as r,L as c,o as e}from"./index-3b9c6b2e.js";const l={__name:"LocalProduct",setup(s){const t=o();return t.getAllProducts(),(u,n)=>(e(),a(c,{data:r(t).products},null,8,["data"]))}};export{l as default};

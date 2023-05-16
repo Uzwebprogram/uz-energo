@@ -1,0 +1,1 @@
+import{_ as n,c as r,b as e,F as s,o as t,D as _}from"./index-3b9c6b2e.js";const o={};function i(a,c){return"diagramm"}const m=n(o,[["render",i]]),u={__name:"Finance",setup(a){return(c,f)=>(t(),r(s,null,[e(_),e(m)],64))}};export{u as default};

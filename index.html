@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>O'zbekenergota`mir</title>
+    <style>
+      #loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        -webkit-backdrop-filter: blur(5px);
+                backdrop-filter: blur(5px);
+        background-color: #0006;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-3b9c6b2e.js"></script>
+    <link rel="stylesheet" href="/assets/index-c94eb10c.css">
+  </head>
+  <body>
+    <div id="loading">
+      <img src="/assets/loading-761f7841.svg" alt="loading-image" />
+    </div>
+
+    <div id="app"></div>
+    
+
+    <script>
+      window.addEventListener("load", function () {
+        var loadingContainer = document.getElementById("loading");
+        loadingContainer.style.display = "none";
+      });
+    </script>
+  </body>
+</html>
